@@ -1,5 +1,5 @@
-import React from "react";
-import "./Main.css";
+import React from 'react';
+import './Main.css';
 
 export default function Main() {
   return (
@@ -19,7 +19,7 @@ export default function Main() {
       <div className="pic">
         <img
           className="walter-pic"
-          src={require("../../assets/images/home2.png")}
+          src={require('https://github.com/karishmarajput/bb_front_endersss/blob/main/src/assets/images/home2.png?raw=true')}
         />
       </div>
     </div>
