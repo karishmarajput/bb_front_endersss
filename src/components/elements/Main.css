@@ -1,13 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .mainPage{
     height:100vh;
     background-color: #e8dacf;
     display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .tagline{
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align:center ;
-    padding-top: 20vh ;
+    padding-top: 15vh;
+}
+
+.tagline-2{
+    width: 100%;
+    padding-top: 10vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.tag-head{
+    width: 55%;
+    font-size: 11vh;
+}
+
+.tag-desc{
+    width: 55%;
+    font-size: 3vh;
+    padding-top: 3vh;
+}
+
+.button1{
+    margin-right: 4vh;
+    margin-left: 4vh;
+    font-size: 2vh;
+    padding: 2.5vh;
+    width: 25vh;
+    border: 0px;
+    border: 0.4vh solid;
+    border-color:#ED613F ;
+    background-color: #ED613F;
+    border-radius: 0.75vh;
+    color: #fff;
+}
+
+.button2{
+    margin-right: 4vh;
+    margin-left: 4vh;
+    font-size: 2vh;
+    padding: 2.5vh;
+    width: 25vh;
+    border: 0.4vh solid;
+    border-color:#421103 ;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0.75vh;
+    color: #421103;
+}
+
+.walter-pic{
+    width: 40vh;
+    height: 40vh;
+    position: absolute;
+    right: 5vh;
+    bottom: 10vh;
+    transform: rotate(-5deg);
 }
