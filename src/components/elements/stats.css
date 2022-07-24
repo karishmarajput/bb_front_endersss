@@ -41,11 +41,13 @@
   font-size: 1.3rem;
   font-weight: 400;
   align-items: center;
+  text-decoration: none;
 }
 .video-div {
   width: 100%;
   background-color: #e8dacf;
-  padding: 1rem;
+  padding: 1rem 0rem;
   display: flex;
   justify-content: center;
+  height: auto;
 }
