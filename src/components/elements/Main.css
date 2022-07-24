@@ -1,0 +1,13 @@
+.mainPage{
+    height:100vh;
+    background-color: #e8dacf;
+    display: flex;
+}
+
+.tagline{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align:center ;
+    padding-top: 20vh ;
+}

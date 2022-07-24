@@ -1,5 +1,5 @@
-import React from 'react';
-import './Header.css';
+import React from "react";
+import "./Header.css";
 export default function Header() {
   return (
     <div className="header">
@@ -15,7 +15,7 @@ export default function Header() {
         </li>
       </ul>
       <div className="logo">
-        <img src="" />
+        <img src="../assets/images/a1a-logo.png" />
         logo
       </div>
       <ul>

@@ -1,5 +1,4 @@
-import React from 'react';
-import Home from './components/pages/Home.js';
+import React from "react";
 
 export default function Dark() {
   return (
