@@ -1,0 +1,25 @@
+.stats-div {
+  background-color: #e8dacf;
+  min-height: 18vw;
+  display: flex;
+  justify-content: space-between;
+}
+.show-numbers {
+  width: 55%;
+  min-height: 18vw;
+  background-color: #421103;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+}
+.show-numbers h1 {
+  font-size: 4rem;
+  font-weight: 450;
+}
+.show-numbers h6 {
+  font-size: 1rem;
+}
+.stats-details {
+  width: 45%;
+}
