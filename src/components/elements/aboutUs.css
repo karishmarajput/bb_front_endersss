@@ -1,4 +1,32 @@
 .aboutUs{
 	background-color: #e8dacf;
-	
+	min-height: 45vw;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
 }
+.aboutUs-main{
+	width: 90%;
+	background-color: #DDC5B3;
+	min-height: 40vw;
+	border-radius:0.5rem;
+	display: flex;
+	justify-content: space-around;
+	align-items:center;
+}
+.aboutUs-main div{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	color: #421103;
+	font-weight: 600;
+	text-align:center;
+	line-height: 4rem;
+}
+.about-us-img{
+width: 90%;
+heigth: auto;
+}
+
