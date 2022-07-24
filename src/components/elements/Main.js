@@ -5,7 +5,8 @@ export default function Main() {
   return (
     <div className="mainPage">
       <div className="tagline">
-        <h1 className="tag-head">Reach your Customers on demand</h1>
+        <h1 className="tag-head">Reach your</h1>
+        <h1 className="tag-head">Customers on demand</h1>
         <h3 className="tag-desc">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
           posuere consectetur pharetra. Integer vitae laoreet lacus. Morbi
