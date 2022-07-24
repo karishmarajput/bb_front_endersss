@@ -1,5 +1,5 @@
-import React from "react";
-import "./Header.css";
+import React from 'react';
+import './Header.css';
 export default function Header() {
   return (
     <div className="header">
@@ -15,8 +15,11 @@ export default function Header() {
         </li>
       </ul>
       <div className="logo">
-        <img src="../assets/images/a1a-logo.png" />
-        logo
+        <img
+          src="https://github.com/karishmarajput/bb_front_endersss/blob/main/src/assets/images/a1a-logo.png?raw=true"
+          width="130"
+          height="80"
+        />
       </div>
       <ul>
         <li>
