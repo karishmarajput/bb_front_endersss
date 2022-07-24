@@ -2,8 +2,6 @@ import React from 'react';
 import './stats.css';
 import { FaAngleRight } from 'react-icons/fa';
 
-import ReactPlayer from 'react-player';
-
 function Stats() {
   return (
     <div>
@@ -21,14 +19,11 @@ function Stats() {
 
         <div className="stats-details">
           <div className="stats-tour">
-            <a onClick="#video-div">
+            <a href="#video-div">
               Get a tour <FaAngleRight width="20" height="20" />
             </a>
           </div>
         </div>
-      </div>
-      <div id="video-div" className="video-div">
-        <ReactPlayer url="https://www.youtube.com/watch?v=LIXV_swzL9Q" />
       </div>
     </div>
   );
