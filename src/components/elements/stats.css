@@ -12,6 +12,7 @@
   justify-content: space-around;
   text-align: center;
   color: white;
+  align-items: center;
 }
 .show-numbers h1 {
   font-size: 4rem;
