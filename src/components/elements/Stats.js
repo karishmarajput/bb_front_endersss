@@ -19,7 +19,7 @@ function Stats() {
 
         <div className="stats-details">
           <div className="stats-tour">
-            <a href="#video-div">
+            <a href="https://youtu.be/LIXV_swzL9Q">
               Get a tour <FaAngleRight width="20" height="20" />
             </a>
           </div>
