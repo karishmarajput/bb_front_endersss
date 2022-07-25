@@ -1,17 +1,12 @@
 import React from "react";
 import Header from "../elements/Header";
+import DarkHome from "../elements/Dark-home";
+
 export default function Dark() {
   return (
-    <div className="Dark-page">
+    <div>
       <Header />
-      <div>
-        <video
-          src={require("../../assets/videos/human-female-02.webm")}
-          preload="none"
-          autoPlay
-          loop
-        />
-      </div>
+      <DarkHome />
     </div>
   );
 }
