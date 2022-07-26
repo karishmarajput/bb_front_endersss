@@ -1,0 +1,8 @@
+.dark .header{
+    background: transparent !important;
+    color: white !important;
+}
+.dark .header ul a {
+    color: white !important;
+    font-weight: 600;
+}
