@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import { Navigate } from 'react-router-dom';
+import { Navigate } from "react-router-dom";
 
 // const windowLoc = window.location.href;
 // console.log(windowLoc)
@@ -8,12 +8,10 @@ let toggle = document.getElementsByClassName("switch-toggle")[0];
 // console.log(toggle.checked)
 let switchToggle = (props, context) => {
   let toggle = document.getElementsByClassName("switch-toggle")[0];
-  console.log(toggle.checked)
-  if (!toggle.checked){ 
-
-    window.location.href = window.location.href.replace('/dark','');
+  console.log(toggle.checked);
+  if (!toggle.checked) {
+    window.location.href = window.location.href.replace("/dark", "");
   }
-  
 };
 
 export default function Header() {
@@ -23,7 +21,6 @@ export default function Header() {
         <ul>
           <li className="switch-btn">
             <label class="switch">
-              
               <input
                 type="checkbox"
                 className="switch-toggle"
@@ -39,8 +36,8 @@ export default function Header() {
         </ul>
         <div className="logo">
           <img
-            src="https://github.com/karishmarajput/bb_front_endersss/blob/main/src/assets/images/a1a-logo.png?raw=true"
-            width="130"
+            src={require("../../assets/images/dark-logo.png")}
+            width="167"
             height="80"
           />
         </div>
