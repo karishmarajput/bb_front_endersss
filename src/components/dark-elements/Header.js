@@ -1,33 +1,34 @@
 import React from "react";
-import "./Header.css";
+import "./header.css";
+import { Navigate } from 'react-router-dom';
 
-const windowLoc = window.location.href;
-
+// const windowLoc = window.location.href;
+// console.log(windowLoc)
+let toggle = document.getElementsByClassName("switch-toggle")[0];
+// console.log(toggle.checked)
 let switchToggle = (props, context) => {
   let toggle = document.getElementsByClassName("switch-toggle")[0];
-  console.log(window.location.href.substring("dark"));
-  if (window.location.href.substring("dark")) {
-    toggle.checked = true;
-  } else {
-    toggle.checked = false;
+  console.log(toggle.checked)
+  if (!toggle.checked){ 
+
+    window.location.href = window.location.href.replace('/dark','');
   }
-  if (toggle) window.location.href += "dark";
-  else {
-    window.location.href = windowLoc;
-  }
+  
 };
 
 export default function Header() {
   return (
-    <div className="header-main">
+    <div className="header-main dark">
       <div className="header">
         <ul>
           <li className="switch-btn">
             <label class="switch">
+              
               <input
                 type="checkbox"
                 className="switch-toggle"
                 onClick={switchToggle}
+                checked="true"
               />
               <span class="slider round"></span>
             </label>
