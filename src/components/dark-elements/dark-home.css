@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
 }
 
 .dark-tag{
@@ -8,7 +9,7 @@
     justify-content: center;
     align-items: center;
     text-align:center ;
-    padding-top: 8rem;
+    height: 80vh;
    
 }
 
@@ -17,6 +18,28 @@
     color: #fff;
     font-family:  'Montserrat', sans-serif;
     line-height: 5.5rem;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+
+.tagline-d1-sp{
+    font-size: 7.5rem;
+    color: #fff;
+    background: linear-gradient(90deg,#ff0000,#ffff00,#ff00f3,#0033ff,#ff00c4,#ff0000);
+    background-size: 400%;
+    font-family:  'Montserrat', sans-serif;
+    line-height: 5.5rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
 }
 
 .span-td1{
@@ -28,4 +51,5 @@
     font-size: 2rem;
     font-family:  'Montserrat', sans-serif;
     padding-top: 1rem;
+    text-shadow: 2px 2px 8px #FF0000;
 }

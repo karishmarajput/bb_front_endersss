@@ -1,13 +1,11 @@
 .dark-main-page{
-    background-image: url("../../assets/images/loop-eyes.gif");
-    /* background-repeat: ; */
-    background-size: cover ;
-    width: 100vw;
-    height: 100vh;
-    /* height: 200vh; */
-    background-position: center;
-    background-repeat: repeat;
+  background-image: url("../../assets/images/loop-eyes.gif");
+  /* background-repeat: ; */
+  background-size: cover ;
+  width: 100vw;
+  height: 100vh;
+  /* height: 200vh; */
+  background-position: center;
+  background-repeat: repeat;
   background-attachment: fixed;
-
-
 }
