@@ -5,8 +5,8 @@ import "../dark-elements/Dark.css";
 export default function Dark() {
   return (
     <div className="dark-main-page">
+      <Header />
       <DarkHome />
-      {/* <Header /> */}
     </div>
   );
 }

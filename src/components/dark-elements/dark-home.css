@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+
+.dark-tag{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center ;
+    padding-top: 8rem;
+   
+}
+
+.tagline-d1{
+    font-size: 7.5rem;
+    color: #fff;
+    font-family:  'Montserrat', sans-serif;
+    line-height: 5.5rem;
+}
+
+.span-td1{
+    color: yellow;
+}
+
+.tagline-d2{
+    color: yellow;
+    font-size: 2rem;
+    font-family:  'Montserrat', sans-serif;
+    padding-top: 1rem;
+}
