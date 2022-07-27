@@ -1,6 +1,6 @@
-import React from 'react';
-import './stats.css';
-import { FaAngleRight } from 'react-icons/fa';
+import React from "react";
+import "./stats.css";
+import { FaAngleRight } from "react-icons/fa";
 
 function Stats() {
   return (
@@ -8,7 +8,7 @@ function Stats() {
       <div className="stats-div">
         <div className="show-numbers">
           <div className="stats-data">
-            <h1>$125+</h1>
+            <h1>$100K+</h1>
             <h6>Avg Annual Income</h6>
           </div>
           <div className="stats-data">
