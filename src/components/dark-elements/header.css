@@ -6,3 +6,18 @@
     color: white !important;
     font-weight: 600;
 }
+.switchDark{
+    background-color: aqua;
+}
+input:checked + .slider {
+    background-color: #ff00c4
+}
+  
+input:focus + .slider {
+    background-color: #ff00c4;
+    box-shadow: 0 0 1px black;
+}
+.dark-footer{
+    position: relative;
+    top: -6rem;
+}

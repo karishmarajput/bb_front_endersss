@@ -23,11 +23,11 @@ export default function Header() {
             <label class="switch">
               <input
                 type="checkbox"
-                className="switch-toggle"
+                className="switch-toggle switchDark"
                 onClick={switchToggle}
                 checked="true"
               />
-              <span class="slider round"></span>
+              <span class="slider sliderDark round"></span>
             </label>
           </li>
           <li>
@@ -37,8 +37,8 @@ export default function Header() {
         <div className="logo">
           <img
             src={require("../../assets/images/dark-logo.png")}
-            width="167"
-            height="80"
+            width="180"
+            height="85"
           />
         </div>
         <ul>
@@ -50,7 +50,6 @@ export default function Header() {
           </li>
         </ul>
       </div>
-      <div className="hr-line"></div>
     </div>
   );
 }

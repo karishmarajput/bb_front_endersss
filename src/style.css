@@ -1,12 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
 h1 {
-  font-family: 'Playfair Display', serif;;
+  font-family: 'Playfair Display', serif;
 }
 body {
   margin: 0%;
   font-family: 'Poppins', sans-serif;
-  background-color: #e8dacf;
+  /* background-color: #e8dacf; */
   width: 100%
+}
+.Home-div{
+   background-color: #e8dacf; 
+}
+.dark-main-page{
+  background-color: #1232C3 !important;
 }
