@@ -3,7 +3,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 .form-div Form{
     width: 80%;
+}
+.form-row{
+    display: flex;
+    justify-content: space-between;
+}
+.text-center{
+    background-color: #421103;
+}
+
+.footer-br{
+    color: #fff;
+    padding-top: 3rem;
+    height: 62vh;
+    font-size: 1.1rem;
+}
+.form-div Form{
+    background-color: #DDC5B3;
+    padding: 5rem;
+    width: 90%;
+    border-radius: 1rem;
 }

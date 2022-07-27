@@ -1,9 +1,9 @@
-import React from 'react';
-import './Main.css';
+import React from "react";
+import "./Main.css";
 
 export default function Main() {
   return (
-    <div className="mainPage">
+    <div id="mainPage" className="mainPage">
       <div className="tagline">
         <h1 className="tag-head">Reach your</h1>
         <h1 className="tag-head">Customers on demand</h1>
@@ -20,7 +20,7 @@ export default function Main() {
       <div className="pic">
         <img
           className="walter-pic"
-          src={require('../../assets/images/home2.png')}
+          src={require("../../assets/images/home2.png")}
         />
       </div>
     </div>
