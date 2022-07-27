@@ -1,5 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import Marqueee from './Marquee';
 import './DarkForm.css';
 (function() {
     // https://dashboard.emailjs.com/admin/account

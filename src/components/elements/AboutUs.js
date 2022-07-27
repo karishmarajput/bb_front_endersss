@@ -2,8 +2,8 @@ import React from "react";
 import "./aboutUs.css";
 function AboutUs() {
   return (
-    <div className="aboutUs" id="aboutUs">
-      <div className="aboutUs-main">
+    <div className="aboutUs " id="aboutUs">
+      <div className="aboutUs-main ">
         <div className="image-div">
           <img
             className="about-us-img"

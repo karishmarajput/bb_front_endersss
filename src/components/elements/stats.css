@@ -1,5 +1,5 @@
 .stats-div {
-  background-color: #e8dacf;
+  /* background-color: #e8dacf; */
   min-height: 18vw;
   display: flex;
   justify-content: space-between;
@@ -46,7 +46,7 @@
 }
 .video-div {
   width: 100%;
-  background-color: #e8dacf;
+  /* background-color: #e8dacf; */
   padding: 1rem 0rem;
   display: flex;
   justify-content: center;

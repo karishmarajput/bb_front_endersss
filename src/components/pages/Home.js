@@ -8,7 +8,7 @@ import BasicExample from "../elements/Form.js";
 import Footer from "../elements/Footer.js";
 export default function Home() {
   return (
-    <div className="home-div">
+    <div className="home-div " id="homeDiv">
       <Header />
       <Main />
       <Stats />

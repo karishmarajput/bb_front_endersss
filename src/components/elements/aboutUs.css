@@ -1,5 +1,5 @@
 .aboutUs{
-	background-color: #e8dacf;
+	/* background-color: #e8dacf; */
 	min-height: 45vw;
 	display: flex; 
 	justify-content: center;
@@ -27,6 +27,6 @@
 }
 .about-us-img{
 width: 90%;
-heigth: auto;
+height: auto;
 }
 

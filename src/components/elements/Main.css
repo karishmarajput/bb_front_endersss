@@ -5,7 +5,7 @@
 
 .mainPage{
     height:100vh;
-    background-color: #e8dacf;
+    /* background-color: #e8dacf; */
     display: flex;
     flex-direction: column;
     position: relative;
@@ -119,4 +119,17 @@
     right: 5vh;
     bottom: 10vh;
     transform: rotate(-5deg);
+}
+.darkModeBtn{
+    rotate: 180deg;
+    height: 1rem;
+}
+.darkMode-div{
+    display: flex;
+}
+.darkMode-div h6{
+    font-size: 1rem;
+    position: relative;
+    top: 12px;
+    padding-left: 1rem;
 }

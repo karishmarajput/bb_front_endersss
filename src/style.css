@@ -20,3 +20,7 @@ body {
 .dark-main-page{
   background-color: #1232C3 !important;
 }
+.homeDark{
+  background-color: black;
+  color: white;
+}
