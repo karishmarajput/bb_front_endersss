@@ -3,7 +3,7 @@ import { MDBFooter } from "mdb-react-ui-kit";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 export default function Footer() {
   return (
-    <div className="dark-footer">
+    <div className="dark-footer" id="footer">
       <MDBFooter
         bgColor="#421103"
         color="white"
@@ -14,12 +14,11 @@ export default function Footer() {
             <div className="row mt-3">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">
-                  <i className="fas fa-gem me-3"></i>Company name
+                  <i className="fas fa-gem me-3"></i>Heisenberg
                 </h6>
                 <p>
-                  Here you can use rows and columns to organize your footer
-                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
+                  Experience the best time of your life with our products made
+                  just for you.
                 </p>
               </div>
 
@@ -60,7 +59,7 @@ export default function Footer() {
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                 <p>
-                  <i className="fas fa-home me-3"></i> New York, NY 10012, US
+                  <i className="fas fa-home me-3"></i> Albuquerque, New Mexico
                 </p>
                 <p>
                   <i className="fas fa-envelope me-3"></i>

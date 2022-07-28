@@ -1,11 +1,7 @@
 import React from "react";
 import "./header.css";
-import { Navigate } from "react-router-dom";
 
-// const windowLoc = window.location.href;
-// console.log(windowLoc)
 let toggle = document.getElementsByClassName("switch-toggle")[0];
-// console.log(toggle.checked)
 let switchToggle = (props, context) => {
   let toggle = document.getElementsByClassName("switch-toggle")[0];
   console.log(toggle.checked);
@@ -31,7 +27,7 @@ export default function Header() {
             </label>
           </li>
           <li>
-            <a href=""> Contact Us</a>
+            <a href="#footer"> Contact Us</a>
           </li>
         </ul>
         <div className="logo">

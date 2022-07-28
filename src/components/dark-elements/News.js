@@ -9,12 +9,13 @@ export default function News() {
       <Card style={{ width: "18rem" }}>
         <Card.Img variant="top" src={require("../../assets/images/news.jpg")} />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>Best BB quotes</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            View some of the best quotes Breaking Bad has to offer.
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <a href="https://www.hollywoodreporter.com/gallery/breaking-bad-quotes-20-badass-612801/">
+            <Button variant="primary">Know More</Button>
+          </a>
         </Card.Body>
       </Card>
       <Card style={{ width: "18rem" }}>
@@ -23,12 +24,28 @@ export default function News() {
           src={require("../../assets/images/news-2.png")}
         />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>Aaron Paul on BB</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            How his life changed after his role in Breaking bad.
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <a href="https://www.theguardian.com/global/2019/oct/06/aaron-paul-breaking-bad-changed-my-life-tv-interview-film-netflix">
+            <Button variant="primary">Know More</Button>
+          </a>
+        </Card.Body>
+      </Card>
+      <Card style={{ width: "18rem" }}>
+        <Card.Img
+          variant="top"
+          src={require("../../assets/images/news-4.webp")}
+        />
+        <Card.Body>
+          <Card.Title>Cars from BB</Card.Title>
+          <Card.Text>
+            Car-addicts, take a look at this collection from BB.
+          </Card.Text>
+          <a href="https://www.topgear.com/car-news/list/all-cars-breaking-bad-tv-series">
+            <Button variant="primary">Know more</Button>
+          </a>
         </Card.Body>
       </Card>
       <Card style={{ width: "18rem" }}>
@@ -37,26 +54,11 @@ export default function News() {
           src={require("../../assets/images/news-3.png")}
         />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: "18rem" }}>
-        <Card.Img
-          variant="top"
-          src={require("../../assets/images/news-3.png")}
-        />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Card.Title>BB spinoff</Card.Title>
+          <Card.Text>Better Call Saul is the new talk of the town.</Card.Text>
+          <a href="https://www.imdb.com/title/tt3032476/">
+            <Button variant="primary">Know More</Button>
+          </a>
         </Card.Body>
       </Card>
     </div>

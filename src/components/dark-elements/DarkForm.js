@@ -1,6 +1,5 @@
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import Marqueee from "./Marquee";
 import "./DarkForm.css";
 (function () {
   // https://dashboard.emailjs.com/admin/account
@@ -38,8 +37,8 @@ function DarkForm() {
   return (
     <div class="form-div darkForm">
       <Form>
-        <h1>Form</h1>
-        <h4>lorem ipsum</h4>
+        <h1>Apply soon</h1>
+        <h4>Fill out this form to apply for our hub</h4>
         <div className="form-row">
           <Form.Group className="mb-3 col-md-5" controlId="formBasicEmail">
             <Form.Label>Name</Form.Label>
