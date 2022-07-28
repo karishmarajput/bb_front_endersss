@@ -1,0 +1,13 @@
+.news-main{
+    background-image: url("../../assets/images/trippy-3.jpg");
+    background-size: contain;
+    height: 100vh;
+    padding: 5rem;
+    position: relative;
+    top: -6rem;
+    display: flex; 
+    justify-content:space-evenly;
+    align-items: center;
+    text-align:center ;
+}
+

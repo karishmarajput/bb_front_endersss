@@ -1,9 +1,10 @@
 .darkForm Form{
     background-color: white;
     padding: 2rem;
+    width: 85%;
 }
 .darkForm{
-    background-image: url("../../assets/images/trippy-2.webp");
+    background-image: url("../../assets/images/trippy-2.jpg");
     background-size: contain;
     height: 100vh;
     position: relative;

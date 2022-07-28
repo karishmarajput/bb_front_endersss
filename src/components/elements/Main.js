@@ -1,24 +1,15 @@
 import React from "react";
 import "./Main.css";
-
 function darkModeToggle() {
   let toggle = document.getElementsByClassName("darkModeToggle")[0];
   console.log(toggle.checked);
+  console.log(toggle);
   let homeDiv = document.getElementById("homeDiv");
   if (toggle.checked) {
     homeDiv.classList.add("homeDark");
   } else {
     homeDiv.classList.remove("homeDark");
   }
-  // if (window.location.href.substring("dark")) {
-  //   toggle.checked = true;
-  // } else {
-  //   toggle.checked = false;
-  // }
-  // if (toggle) window.location.href += "dark";
-  // else {
-  //   window.location.href = windowLoc;
-  // }
 }
 export default function Main() {
   return (

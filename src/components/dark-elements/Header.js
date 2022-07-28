@@ -43,10 +43,7 @@ export default function Header() {
         </div>
         <ul>
           <li>
-            <button className="login">Login</button>
-          </li>
-          <li>
-            <button className="signup">Sign up</button>
+            <a href="">Let's Connect</a>
           </li>
         </ul>
       </div>

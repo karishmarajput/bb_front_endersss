@@ -13,11 +13,8 @@
   top:-6rem;
   padding: 2.3rem;
   height: 100vh;
-  background-image: url("../../assets/images/trippy-1.webp") ;
+  background-image: url("../../assets/images/trippy-1.jpg") ;
   background-size: contain;
-  background-repeat: no-repeat;
-
-
 }
 .aboutDark .aboutUs-main{
   background-color: blueviolet;
