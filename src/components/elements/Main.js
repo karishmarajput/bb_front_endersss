@@ -1,11 +1,11 @@
 import React from "react";
 import "./Main.css";
+let click = 0;
 function darkModeToggle() {
-  let toggle = document.getElementsByClassName("darkModeToggle")[0];
-  console.log(toggle.checked);
-  console.log(toggle);
+  click++;
   let homeDiv = document.getElementById("homeDiv");
-  if (toggle.checked) {
+  if (click%2 !== 0) {
+
     homeDiv.classList.add("homeDark");
   } else {
     homeDiv.classList.remove("homeDark");
@@ -14,20 +14,9 @@ function darkModeToggle() {
 export default function Main() {
   return (
     <div id="mainPage" className="mainPage">
+      
       <div className="darkMode-div">
-        <h6>Dark Mode:</h6>
-
-        <li className="switch-btn darkModeBtn">
-          <label class="switch darkSwitch">
-            <input
-              type="checkbox"
-              className="switch-toggle darkModeToggle"
-              onClick={darkModeToggle}
-              checked="false"
-            />
-            <span class="slider round"></span>
-          </label>
-        </li>
+        <button id="darkModeBtn"onClick={darkModeToggle}>Dark Mode:</button>
       </div>
       <div className="tagline">
         <h1 className="tag-head">Experience</h1>
