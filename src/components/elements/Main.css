@@ -117,9 +117,19 @@
     height: 40vh;
     position: absolute;
     right: 5vh;
-    bottom: 10vh;
+    bottom: 7rem;
     transform: rotate(-5deg);
 }
+
+.clip-pic{
+    width: 35vh;
+    height: 35vh;
+    position: absolute;
+    top: 0.5rem;
+    left: 4rem;
+}
+
+
 .darkModeBtn{
     rotate: 180deg;
     height: 1rem;

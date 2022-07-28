@@ -4,7 +4,6 @@ import "./Main.css";
 export default function Main() {
   return (
     <div id="mainPage" className="mainPage">
-      
       <div className="tagline">
         <h1 className="tag-head">Experience</h1>
         <h1 className="tag-head">growth with the best.</h1>
@@ -23,6 +22,12 @@ export default function Main() {
         <img
           className="walter-pic"
           src={require("../../assets/images/home2.png")}
+        />
+      </div>
+      <div className="pic">
+        <img
+          className="clip-pic"
+          src={require("../../assets/images/clip-pic.png")}
         />
       </div>
     </div>
