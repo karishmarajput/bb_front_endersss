@@ -37,8 +37,8 @@ function BasicExample() {
   return (
     <div class="form-div" id="form-div">
       <Form>
-        <h1>Form</h1>
-        <h4>lorem ipsum</h4>
+        <h1>Apply Soon</h1>
+        <h4>Experience growth like never before.</h4>
         <div className="form-row">
           <Form.Group className="mb-3 col-md-5" controlId="formBasicEmail">
             <Form.Label>Name</Form.Label>
