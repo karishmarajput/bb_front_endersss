@@ -2,7 +2,7 @@ import React from "react";
 // import "./aboutUs.css";
 function AboutUs() {
   return (
-    <div className="aboutUs dark aboutDark">
+    <div className="aboutUs dark aboutDark" id="aboutDark">
       <div className="aboutUs-main">
         <div className="image-div">
           <img

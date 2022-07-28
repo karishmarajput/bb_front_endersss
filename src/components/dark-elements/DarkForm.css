@@ -10,7 +10,9 @@
     position: relative;
     top: -6rem;
 }
-
+a{
+    cursor: pointer;
+}
 @keyframes animate {
     0%{
         background-position: 0%;

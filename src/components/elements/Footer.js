@@ -3,6 +3,7 @@ import { MDBFooter } from "mdb-react-ui-kit";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 export default function Footer() {
   return (
+    <div id="footerLight">
     <MDBFooter
       bgColor="#421103"
       color="white"
@@ -85,5 +86,6 @@ export default function Footer() {
         © 2022 Copyright: Aaryan Rastogi & Karishma Rajput
       </div>
     </MDBFooter>
+    </div>
   );
 }

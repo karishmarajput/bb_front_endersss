@@ -33,7 +33,9 @@ export default function Header() {
             </label>
           </li>
           <li>
-            <a href=""> Contact Us</a>
+            <a onClick={() => {
+                      document.getElementById("footerLight").scrollIntoView();
+                    }}> Contact Us</a>
           </li>
         </ul>
         <div className="logo">
