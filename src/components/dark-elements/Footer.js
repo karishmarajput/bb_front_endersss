@@ -3,7 +3,7 @@ import { MDBFooter } from "mdb-react-ui-kit";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 export default function Footer() {
   return (
-    <div className="dark-footer" id="footer">
+    <div className="dark-footer" id="footer2">
       <MDBFooter
         bgColor="#421103"
         color="white"
@@ -25,14 +25,16 @@ export default function Footer() {
               <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a  onClick={() => {
+                      document.getElementById("darkHome").scrollIntoView();
+                    }}className="text-reset">
                     Home
                   </a>
                 </p>
                 <p>
                   <a
                     onClick={() => {
-                      document.getElementById("aboutUs").scrollIntoView();
+                      document.getElementById("aboutDark").scrollIntoView();
                     }}
                     className="text-reset"
                   >
@@ -42,7 +44,7 @@ export default function Footer() {
                 <p>
                   <a
                     onClick={() => {
-                      document.getElementById("form-div").scrollIntoView();
+                      document.getElementById("darkForm").scrollIntoView();
                     }}
                     className="text-reset"
                   >
@@ -50,8 +52,10 @@ export default function Footer() {
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
-                    Help
+                  <a onClick={() => {
+                      document.getElementById("newsDark").scrollIntoView();
+                    }} className="text-reset">
+                    News
                   </a>
                 </p>
               </div>

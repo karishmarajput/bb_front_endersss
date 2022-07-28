@@ -35,7 +35,7 @@ function submitForm(e) {
 }
 function DarkForm() {
   return (
-    <div class="form-div darkForm">
+    <div class="form-div darkForm" id="darkForm">
       <Form>
         <h1>Apply soon</h1>
         <h4>Fill out this form to apply for our hub</h4>

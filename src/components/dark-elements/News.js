@@ -5,7 +5,7 @@ import "./news.css";
 
 export default function News() {
   return (
-    <div className="news-main">
+    <div className="news-main" id="newsDark">
       <Card style={{ width: "18rem" }}>
         <Card.Img variant="top" src={require("../../assets/images/news.jpg")} />
         <Card.Body>

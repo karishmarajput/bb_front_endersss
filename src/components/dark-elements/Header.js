@@ -27,7 +27,9 @@ export default function Header() {
             </label>
           </li>
           <li>
-            <a href="#footer"> Contact Us</a>
+            <a onClick={() => {
+                      document.getElementById("aboutDark").scrollIntoView();
+                    }}>About Us</a>
           </li>
         </ul>
         <div className="logo">
@@ -38,8 +40,16 @@ export default function Header() {
           />
         </div>
         <ul>
-          <li>
-            <a href="">Let's Connect</a>
+        <li>
+            <a onClick={() => {
+                      document.getElementById("newsDark").scrollIntoView();
+                    }}>News</a>
+          </li>
+          
+        <li>
+            <a onClick={() => {
+                      document.getElementById("darkForm").scrollIntoView();
+                    }}>Form</a>
           </li>
         </ul>
       </div>

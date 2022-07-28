@@ -16,8 +16,12 @@ export default function Main() {
         </h3>
       </div>
       <div className="tagline-2">
-        <button className="button1">Apply</button>
-        <button className="button2">Learn more</button>
+        <button className="button1" onClick={() => {
+                      document.getElementById("form-div").scrollIntoView();
+                    }}>Apply</button>
+        <button className="button2" onClick={() => {
+                      document.getElementById("aboutUs").scrollIntoView();
+                    }}>Learn more</button>
       </div>
       <div className="pic">
         <img
