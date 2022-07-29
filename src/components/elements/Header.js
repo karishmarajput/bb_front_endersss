@@ -32,7 +32,7 @@ export default function Header() {
               <span class="slider round"></span>
             </label>
           </li>
-          <li>
+          <li className="contactUsLi">
             <a onClick={() => {
                       document.getElementById("footerLight").scrollIntoView();
                     }}> Contact Us</a>
@@ -47,7 +47,7 @@ export default function Header() {
         </div>
         <ul>
           <li>
-            <a href="">Let's Connect</a>
+            <a href="https://www.instagram.com/a1acarwashltd/">Let's Connect</a>
           </li>
         </ul>
       </div>

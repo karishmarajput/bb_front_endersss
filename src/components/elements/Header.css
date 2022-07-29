@@ -73,7 +73,7 @@ input:checked + .slider:before {
   color: #421103;
 }
 .header .logo {
-  width: 40vw;
+  width: 30vw;
 }
 .header ul {
   list-style-type: none;

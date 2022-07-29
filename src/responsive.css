@@ -1,0 +1,76 @@
+
+/* body{
+  background-color: aqua !important;
+} */
+@media only screen and (max-width: 1100px) {
+  .contactUsLi{
+    display: none;
+  }
+  .home-div{
+    min-width: 100vw;
+  }
+  html{
+    width: 100%;
+  }
+  .pic{
+    display: none;
+  }
+
+  .tagline{
+    padding: 5vh;
+    max-width: fit-content;
+  }
+  .tag-head{
+    font-size: 3rem;
+    width: 100%;
+  }
+  .tag-desc{
+    width: 100%
+  }
+  .tagline-2{
+    padding-top: 0px;
+  }
+  .stats-div{
+    flex-direction: column;
+    /* padding-top: 2rem; */
+  }
+  .stats-div div{
+    width: 100%;
+  }
+  .show-numbers {
+    min-height: 25vh;
+  }
+  .stats-tour{
+    padding: .8rem;
+  }
+  .aboutUs {
+    padding: .2rem;
+    padding-top: 2rem;
+  }
+  .aboutUs-main {
+    flex-direction: column;
+  }
+  .aboutUs-main div{
+    padding-right: 0px;
+    width: 100%;
+    padding: .8rem;
+  }
+  .form-div{
+    min-height: 100vh;
+    max-height: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    padding-top: 2rem;
+
+  }
+  .form-div form{
+    width: 100%;
+    padding: 3rem 1rem;
+  }
+  .form-row{
+    flex-direction: column;
+  }
+  .copyright{
+   display: none;
+  }
+}

@@ -15,6 +15,7 @@ body {
   width: 100%
 }
 .Home-div{
+  width: 100%;
    background-color: #e8dacf; 
 }
 .dark-main-page{
@@ -23,4 +24,7 @@ body {
 .homeDark{
   background-color: black;
   color: white;
+}
+#root{
+  width:100%;
 }
