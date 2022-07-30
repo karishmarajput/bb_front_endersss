@@ -18,13 +18,13 @@
     justify-content: center;
     align-items: center;
     text-align:center ;
-    padding-top: 15vh;
+    /* padding-top: 15vh; */
     color: #421103;
 }
 
 .tagline-2{
     width: 100%;
-    padding-top: 10vh;
+    padding-top: 5vh;
     display:flex;
     flex-direction: row;
     justify-content: center;

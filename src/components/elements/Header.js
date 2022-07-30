@@ -38,9 +38,10 @@ export default function Header() {
                     }}> Contact Us</a>
           </li>
         </ul>
-        <div className="logo">
+        <div className="logo" >
           <img
-            src="https://github.com/karishmarajput/bb_front_endersss/blob/main/src/assets/images/a1a-logo.png?raw=true"
+          id ="logo"
+            src={require("../../assets/images/a1a-logo.png")}
             width="130"
             height="80"
           />

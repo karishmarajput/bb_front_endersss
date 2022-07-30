@@ -9,7 +9,7 @@ import Footer from "../elements/Footer.js";
 import '../../responsive.css'
 export default function Home() {
   return (
-    <div className="home-div " id="homeDiv">
+    <div className="home-div" id="homeDiv">
       <Header />
       <Main />
       <Stats />

@@ -1,9 +1,35 @@
 import React from "react";
 import "./Main.css";
-
+let click =0;
+let darkModeFunc = () =>{
+  console.log('dark Mode');
+  let homeDiv = document.getElementById('homeDiv');
+  let logo = document.getElementById("logo");
+  console.log(logo)
+  click++;
+  if(click % 2 !== 0){
+    homeDiv.classList.add('homeDark');
+    logo.src = 'https://github.com/karishmarajput/bb_front_endersss/blob/main/src/assets/images/a1a-dark.png?raw=true';
+  }else{
+    homeDiv.classList.remove('homeDark');
+    logo.src = 'https://github.com/karishmarajput/bb_front_endersss/blob/main/src/assets/images/a1a-logo.png?raw=true';
+  }
+}
 export default function Main() {
   return (
     <div id="mainPage" className="mainPage">
+      <div className="toggleDark">
+          <div className="toggleDarkDiv">
+            <input type="checkbox" class="checkbox" id="checkbox" onClick={darkModeFunc}/>
+          <label for="checkbox" class="label">
+            <i class="fas fa-moon"></i>
+            <i class='fas fa-sun'></i>
+            <div class='ball'/>
+          </label>
+          </div>
+      </div>
+      
+
       <div className="tagline">
         <h1 className="tag-head">Experience</h1>
         <h1 className="tag-head">growth with the best.</h1>
