@@ -11,8 +11,8 @@ function submitForm(e) {
   let formItems = document.getElementsByClassName("form-control");
   console.log(formItems[0].value);
   let name = formItems[0].value;
-  let number = formItems[1].value;
-  let email = formItems[2].value;
+  let number = formItems[2].value;
+  let email = formItems[3].value;
   let checkBox = document.getElementById("check-box-form");
   console.log(checkBox.checked);
   if (name === "" || email === "" || number === "") {

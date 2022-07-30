@@ -11,17 +11,21 @@ function submitForm(e) {
   let formItems = document.getElementsByClassName("form-control");
   console.log(formItems[0].value);
   let name = formItems[0].value;
-  let number = formItems[1].value;
-  let email = formItems[2].value;
+  let number = formItems[2].value;
+  let email = formItems[3].value;
   let checkBox = document.getElementById("check-box-form");
   console.log(checkBox.checked);
   if (name === "" || email === "" || number === "") {
     alert("Please fill all the fields");
     return;
   }
+  console.log(number)
   if (checkBox.checked) {
-    let templateParams = { name: name, email: email };
-    emailjs.send("service_l7dzw0j", "template_h9ej51e", templateParams).then(
+    
+    emailjs.send("service_l7dzw0j","template_h9ej51e",{
+      name: name,
+      email: email,
+      }).then(
       function () {
         console.log("SUCCESS!");
         alert("Thank you! we will get back to you soon");
