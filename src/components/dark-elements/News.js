@@ -1,11 +1,19 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import Marquee from "react-fast-marquee";
 import "./news.css";
 
 export default function News() {
   return (
+    <div className="newsMainDiv">
+      <div className="newsMarquee">
+        <Marquee gradient={false} speed={70}gradientWidth={0}>
+          <p className="marqueeContain">GET HIGHHHH!!!!!!!</p>
+          </Marquee>
+          </div>
     <div className="news-main" id="newsDark">
+      
       <Card className="card" style={{ width: "18rem" }}>
         <Card.Img variant="top" src={require("../../assets/images/news.jpg")} />
         <Card.Body>
@@ -61,6 +69,7 @@ export default function News() {
           </a>
         </Card.Body>
       </Card>
+    </div>
     </div>
   );
 }
