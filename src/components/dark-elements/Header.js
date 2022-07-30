@@ -14,19 +14,19 @@ export default function Header() {
   return (
     <div className="header-main dark">
       <div className="header">
-        <ul>
+        <ul className="headerUl1">
           <li className="switch-btn">
-            <label class="switch">
+            <label className="switch">
               <input
                 type="checkbox"
                 className="switch-toggle switchDark"
                 onClick={switchToggle}
                 checked="true"
               />
-              <span class="slider sliderDark round"></span>
+              <span className="slider sliderDark round"></span>
             </label>
           </li>
-          <li>
+          <li className="aboutUsLiDark">
             <a onClick={() => {
                       document.getElementById("aboutDark").scrollIntoView();
                     }}>About Us</a>
@@ -39,14 +39,14 @@ export default function Header() {
             height="85"
           />
         </div>
-        <ul>
-        <li>
+        <ul className="headerUl2">
+        <li className="darkNewsLi">
             <a onClick={() => {
                       document.getElementById("newsDark").scrollIntoView();
                     }}>News</a>
           </li>
           
-        <li>
+        <li className="darkFormLi">
             <a onClick={() => {
                       document.getElementById("darkForm").scrollIntoView();
                     }}>Form</a>

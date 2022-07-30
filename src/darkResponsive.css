@@ -1,0 +1,42 @@
+
+/* body{
+  background-color: aqua !important;
+} */
+@media only screen and (max-width: 1100px) {
+
+ .darkNewsLi,.darkFormLi,.aboutUsLiDark, .headerUl1{
+    display: none;
+ }
+.header{
+   width: 100%;
+}
+.headerUl1{
+   padding-right: 1rem;
+}
+.tagline-d1,.tagline-d1-sp{
+   font-size: 5.5rem;
+}
+.aboutDark{
+   min-height: 100vh;
+   height: fit-content;
+   padding: 1rem;
+   padding-top: 2rem;
+} 
+.darkForm{
+   min-height: 100vh;
+   height: fit-content;
+   padding: 0px;
+   padding-top: 2rem;
+}
+.news-main{
+   flex-direction: column;
+   padding: 1rem;
+   padding-top: 2rem;
+   min-height: 100vh;
+   height: fit-content;
+}
+.news-main .card{
+   margin: .5rem;
+}
+
+}

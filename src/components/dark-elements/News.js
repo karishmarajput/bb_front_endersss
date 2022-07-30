@@ -6,7 +6,7 @@ import "./news.css";
 export default function News() {
   return (
     <div className="news-main" id="newsDark">
-      <Card style={{ width: "18rem" }}>
+      <Card className="card" style={{ width: "18rem" }}>
         <Card.Img variant="top" src={require("../../assets/images/news.jpg")} />
         <Card.Body>
           <Card.Title>Best BB quotes</Card.Title>
@@ -18,7 +18,7 @@ export default function News() {
           </a>
         </Card.Body>
       </Card>
-      <Card style={{ width: "18rem" }}>
+      <Card className="card" style={{ width: "18rem" }}>
         <Card.Img
           variant="top"
           src={require("../../assets/images/news-2.png")}
@@ -33,7 +33,7 @@ export default function News() {
           </a>
         </Card.Body>
       </Card>
-      <Card style={{ width: "18rem" }}>
+      <Card className="card" style={{ width: "18rem" }}>
         <Card.Img
           variant="top"
           src={require("../../assets/images/news-4.webp")}
@@ -48,7 +48,7 @@ export default function News() {
           </a>
         </Card.Body>
       </Card>
-      <Card style={{ width: "18rem" }}>
+      <Card className="card" style={{ width: "18rem" }}>
         <Card.Img
           variant="top"
           src={require("../../assets/images/news-3.png")}

@@ -6,7 +6,7 @@ import "../dark-elements/Dark.css";
 import AboutUs from "../dark-elements/AboutUs-dark";
 import Footer from "../dark-elements/Footer.js";
 import News from "../dark-elements/News";
-
+import '../../darkResponsive.css';
 export default function Dark() {
   return (
     <div className="dark-main-page">

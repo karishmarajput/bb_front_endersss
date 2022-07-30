@@ -81,7 +81,7 @@ export default function Footer() {
         </section>
 
         <div
-          className="text-center p-4"
+          className="text-center p-4 copyright"
           style={{
             backgroundColor: "rgba(0, 0, 0, 0.05)",
             color: "rgba(255,255,255,0.7)",
