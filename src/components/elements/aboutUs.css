@@ -35,3 +35,9 @@ transform: rotate(5deg);
 .about-info{
 	font-size: 2rem;
 }
+.about-us-img{
+	transition: transform .7s ease-in-out;
+}
+.about-us-img:hover {
+	transform: rotate(-20deg);
+}

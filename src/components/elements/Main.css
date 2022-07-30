@@ -147,3 +147,16 @@
     padding: .5rem;
     margin: .5rem;
 }
+
+.clip-pic{
+    transition: transform .7s ease-in-out;
+  }
+.clip-pic:hover {
+  transform: rotate(-30deg);
+}
+.walter-pic{
+    transition: transform .2s;
+}
+.walter-pic:hover{
+    transform: scale(1.15);
+}
