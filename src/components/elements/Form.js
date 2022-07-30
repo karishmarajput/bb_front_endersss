@@ -7,14 +7,12 @@ import "./form.css";
 })();
 function submitForm(e) {
   e.preventDefault();
-  console.log(e);
   let formItems = document.getElementsByClassName("form-control");
-  console.log(formItems[0].value);
   let name = formItems[0].value;
   let number = formItems[2].value;
   let email = formItems[3].value;
   let checkBox = document.getElementById("check-box-form");
-  console.log(checkBox.checked);
+
   if (name === "" || email === "" || number === "") {
     alert("Please fill all the fields");
     return;
