@@ -9,7 +9,7 @@ export default function News() {
     <div className="newsMainDiv">
       <div className="newsMarquee">
         <Marquee gradient={false} speed={70}gradientWidth={0}>
-          <p className="marqueeContain">GET HIGHHHH!!!!!!!</p>
+          <p className="marqueeContain">GET HIGH!!</p>
           </Marquee>
           </div>
     <div className="news-main" id="newsDark">
