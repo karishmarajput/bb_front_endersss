@@ -35,8 +35,9 @@
    min-height: 100vh;
    height: fit-content;
 }
+
+
+}
 .news-main .card{
    margin: .5rem;
-}
-
 }
