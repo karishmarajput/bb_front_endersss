@@ -1,3 +1,4 @@
+import { right } from "@popperjs/core";
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
@@ -8,7 +9,7 @@ export default function News() {
   return (
     <div className="newsMainDiv">
       <div className="newsMarquee">
-        <Marquee gradient={false} speed={70}gradientWidth={0}>
+        <Marquee gradient={false} speed={90}gradientWidth={0} pauseOnHover={true} direction={right}>
           <p className="marqueeContain">GET HIGH!!</p>
           </Marquee>
           </div>

@@ -31,7 +31,9 @@
    min-height: 100vh;
    height: fit-content;
 }
-
+.marqueeContain{
+   font-size: 4rem
+}
 
 }
 .news-main .card{
