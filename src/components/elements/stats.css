@@ -44,6 +44,10 @@
   align-items: center;
   text-decoration: none;
 }
+
+.stats-tour a:hover{
+  color: #421103;
+}
 .video-div {
   width: 100%;
   /* background-color: #e8dacf; */

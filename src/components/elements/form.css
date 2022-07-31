@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 .form-div Form{
     width: 80%;
@@ -15,7 +15,9 @@
 .text-center{
     background-color: #421103;
 }
-
+#footerLight{
+    margin-top: 2rem;
+}
 .footer-br{
     color: #fff;
     padding-top: 3rem;
@@ -27,4 +29,8 @@
     padding: 5rem;
     width: 90%;
     border-radius: 1rem;
+  
+}
+.form-div{
+    color: black;
 }

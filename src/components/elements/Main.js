@@ -57,7 +57,7 @@ export default function Main() {
       <div className="pic">
         <img
           className="clip-pic"
-          src={require("../../assets/images/clip-pic.png")}
+          src={require("../../assets/images/bestService.png")}
         />
       </div>
     </div>

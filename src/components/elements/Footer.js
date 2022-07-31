@@ -17,7 +17,7 @@ export default function Footer() {
                 <i className="fas fa-gem me-3"></i>A1A Car Wash
               </h6>
               <p>
-                Come experience the best car wash service Mexico can offer.
+                Come experience the best car wash service USA can offer.
                 Tried the rest , come try the best.
               </p>
             </div>

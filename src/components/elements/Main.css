@@ -160,3 +160,6 @@
 .walter-pic:hover{
     transform: scale(1.15);
 }
+.toggleDarkDiv:hover, .label:hover{
+    cursor: pointer;
+}
