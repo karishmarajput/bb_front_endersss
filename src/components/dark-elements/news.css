@@ -5,6 +5,7 @@
     align-items: center;
     text-align:center ;
     padding: 3rem;
+    flex-wrap: wrap;
 }
 .newsMainDiv{
     background-image: url("../../assets/images/trippy-3.jpg");
@@ -12,7 +13,7 @@
     min-height: 100vh;
   
     position: relative;
-    top: -6rem;
+    top: -8.3rem;
 }
 .marquee-container{
     width: 100%;
