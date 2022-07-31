@@ -31,6 +31,8 @@ function submitForm(e) {
         alert("Failed " + error.text);
       }
     );
+  }else{
+    alert("Thank you! we will get back to you soon");
   }
 }
 function DarkForm() {
