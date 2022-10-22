@@ -15,6 +15,10 @@ When Walter starts his partnership with Jesse, he wants more men in his Empire. 
 ## Screenshots
 
 <img src="src/assets/images/demo-1.png"/>
+<img src="src/assets/images/demo-2.png"/>
+<img src="src/assets/images/demo-3.png"/>
+<img src="src/assets/images/demo-4.png"/>
+<img src="src/assets/images/demo-5.png"/>
 
 
 ## Authors
