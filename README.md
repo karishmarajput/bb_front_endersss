@@ -1,8 +1,24 @@
-# bb_front_endersss
-bb_front_endersss is a frontend project for the Inspect Element Competition by Sies, Nerul.
+# bb_front_enders
+
+bb_front_endersss is a frontend project for the Inspect Element Competition by Sies, Nerul. 
 It is based on the theme Breaking Bad Series.
-## Scenario-3
+## Scenario
 When Walter starts his partnership with Jesse, he wants more men in his Empire. Help Walter to hire employees for the same.
-## 🔥 Team Front Endersss
-- <a href="https://github.com/Aaryan246">Aaryan</a>
-- <a href="https://github.com/karishmarajput">Karishma</a>
+## Features
+
+- Light/dark mode toggle
+- Submission form
+- Secret webpage on toggle
+- Breaking Bad news
+
+
+## Screenshots
+
+<img src="assets/demo-1.png" width=300/>
+
+
+## Authors
+
+- [Aaryan Rastogi](https://www.github.com/aaryan246)
+- [Karishma Rajput](https://www.github.com/karishmarajput)
+
